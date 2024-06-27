@@ -1,0 +1,8 @@
+services:
+  app:
+    image: 'liohart24/api:latest'
+    build:
+      context: .
+    container_name: utec-api
+    ports:
+      - '8080:8080'
